@@ -384,12 +384,13 @@ header .header-content .header-content-inner p {
 //INICIO SECCION ABOUT-COMPANY
 
 .about-company{
+
   color: #0a0a0a;
   font-family: 'Open Sans', sans-serif;
 
   h3 {
 
-    font-size: 50px;
+    font-size: 35px;
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: .5rem;
@@ -432,6 +433,127 @@ header .header-content .header-content-inner p {
     background: #fd3635;
   }
 }
+//FIN SECCIÓN
+
+//SECCION:LATEST-NEWS
+.latest-news{
+
+  margin-top:-50px;
+  .container .row {
+    margin-left: 1.25rem;
+    margin-right: -0.75rem;
+  }
+
+  background-color:whitesmoke;
+  .texto{
+    margin-top:-20px;
+  }
+
+  h1{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+  }
+  h2{
+    color: #747474;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-transform: none;
+  }
+  hr{
+    border-color: #176079;
+    background-color: rgb(23, 96, 121);
+    border-width: 1px;
+    max-width: 171px;
+  }
+
+
+  .caja-text{
+    background-color:#F1F5F9;
+    ;
+    #calipso{
+      margin-left: 40%;
+      color:black;
+    }
+    h6{
+      //color: $color_rosado;
+      font-weight: 800;
+      font-size: 80%;
+      display:inline-block; 
+      padding-left:5px;
+      color:#258faf;
+    }
+  }
+
+  img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-top: -40px;
+    //border-radius: $border-radius;
+
+  }
+  img:hover{
+    margin-top: -80px;
+  }
+
+
+  h5{
+    //color: $background-fondo;
+    font-size: 17.5px;
+    font-weight: 400;
+    padding-bottom: 3%;
+  }   
+
+  div.imaProduct{
+    background-color: white;
+    //border-radius: $border-radius;
+    max-width: 300px;
+    margin: 60px 10px 10px;
+    display:inline-block;
+    margin-left:4%;
+
+    h4{
+      color: #3c4858;
+      font-weight: 700;
+      font-size: 128%;
+      padding-left:15px;
+    }
+    p{
+      border-bottom: 1px dashed #ddd;
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+      color: #999;
+      font-weight: 400;
+      font-size: 80%;
+      line-height: 25.2px;
+      padding-left:15px;
+    }
+
+    a p{
+      list-style:none;
+      display:inline-block;
+      border-bottom: none;
+
+    }
+    p.more{
+      color: #3c4858;
+      padding-bottom: 10%;
+      font-weight: 400;
+      border-bottom: none;
+
+    }
+  }
+}
+//FIN SECCIÓN
+
+
 img::selection {
   color: white;
   background: transparent;
