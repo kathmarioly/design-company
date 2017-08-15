@@ -157,13 +157,23 @@ header {
   color: white;
 
 
-  a{
+  a .typewrite{
     text-decoration:none;
-  }
+    ext-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 10em;
+    font-family: 'Lobster Two', cursive;
+  //font-family: Lobster,cursive;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 3px #7d2608;
+  padding:15px;
 
 }
 
-header .header-content .typewrite{
+}
+
+header .header-content-inner .typewrite{
 
   text-align: center;
   color: white;
@@ -176,7 +186,6 @@ header .header-content .typewrite{
   padding:15px;
 
 }
-
 header .header-content .btn-xl {
   padding: 8px 16px;
   margin: 23px 30px;
