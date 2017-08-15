@@ -142,9 +142,13 @@ aside {
     color: #F05F40;
   }
 }
+
+//HEADER...!!!!
+
 header {
   position: relative;
   width: 100%;
+  
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -153,42 +157,66 @@ header {
   background-position: center;
   background-image: url('../img/slider_bg12_wyzliq-min_dffuob.jpg');
   text-align: center;
-  opacity: 0.9;
-  color: white;
+  
+  .btn {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    margin-top:20px;
 
+
+
+  }
+  #btn-1{
+    background: #73baae;
+    font-size: 16px;
+  }
+
+  #btn-2{
+
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    background-color:transparent;
+
+  }
 
   a .typewrite{
-    text-decoration:none;
-    ext-align: center;
-    color: white;
-    font-size: 25px;
-    padding-top: 10em;
-    font-family: 'Lobster Two', cursive;
-  //font-family: Lobster,cursive;
-  text-transform: capitalize;
-  text-shadow: 1px 1px 3px #7d2608;
-  padding:15px;
 
-}
 
-}
+  }
 
-header .header-content-inner .typewrite{
 
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  padding-top: 10em;
-  font-family: 'Lobster Two', cursive;
-  //font-family: Lobster,cursive;
-  text-transform: capitalize;
-  text-shadow: 1px 1px 3px #7d2608;
-  padding:15px;
+  strong{
+   font-size: 5vw !important;
+ }
+ .header-content-inner .typewrite{
+
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: 1px;
+   line-height: 1.5;
+   text-transform: uppercase;
+   color: #cccccc;
+ }
 
 }
 header .header-content .btn-xl {
   padding: 8px 16px;
   margin: 23px 30px;
+
 
 }
 
@@ -197,23 +225,20 @@ header .header-content {
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+
 }
 
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 1.5;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
-  text-shadow: 3px 6px 3px #464639;
-  font-weight: 706;
+  color:white;
 }
-header .header-content .header-content-inner hr {
-  margin: 12px auto;
-  border-color: #F05F40;
-  border-width: 2px;
-  max-width: 255px;
-}
+
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
@@ -246,6 +271,7 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 
