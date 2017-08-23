@@ -802,3 +802,15 @@ i{
 }
 
 //FIN SECCIÓN
+
+.iconos{
+  background-image: url("../img/contact2-min.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: relative;
+
+ .ima-icon{
+  display:inline-block;
+ }
+}
